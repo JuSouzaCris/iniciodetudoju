@@ -1,0 +1,91 @@
+body {
+    background-color: #f56db5; /* Rosa bebê */
+    text-align: center;
+  }
+  
+  .nome {
+    font-size: 4rem;
+    margin-top: 100px;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste a altura conforme necessário */
+    margin: 0;
+    background-color: #F56DB5; /* Rosa bebê */
+  }
+  
+  .nome {
+    font-size: 4rem;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajuste a altura conforme necessário */
+    margin: 0;
+    background-color: #F56DB5; /* Rosa bebê */
+  }
+  
+  .nome {
+    font-size: 4rem;
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F56DB5;
+  }
+  
+  .nome {
+    font-size: 4rem;
+    @font-face {
+        font-family: "Realistic Twilight Personal Use Only.tt";
+        src: url(.Fonts/Realistic Twilight Personal Use Only.ttf);
+    }
+    font-style: italic;
+    opacity: 0; /* Inicialmente, o nome está invisível */
+    transition: opacity 2s ease-in-out; /* Transição de opacidade em 2 segundos */
+  }
+  .nome {
+    font-size: 4rem;
+    opacity: 0;
+    animation: aparecer 2s ease-in-out forwards;
+  }
+  
+  @keyframes aparecer {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #F56DB5;
+  }
+  
+  .nome {
+    font-size: 4rem;
+    opacity: 0;
+    animation: aparecer 2s ease-in-out forwards;
+    text-decoration:azure; /* Remove o sublinhado padrão do link */
+    color: #000; /* Define a cor do texto do link */
+  }
+  
+  /* ... outras regras de estilo ... */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
